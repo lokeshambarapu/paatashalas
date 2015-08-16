@@ -1,0 +1,120 @@
+<?php 
+session_start();
+include "paa_connection.php";
+ ?>
+<html>
+<head>
+<title>Template 1</title>
+<link href="css/style1.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/slider.css" rel="stylesheet" type="text/css" media="all"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+		  
+		  
+<script type="text/javascript" src="js1/jquery-1.9.0.min.js"></script>
+<script type="text/javascript" src="js1/jquery.nivo.slider.js"></script>
+<script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+    </script>
+<!--light-box-->
+
+</head>
+<body>
+<div class="header">
+	<div class="wrap">
+		<div class="header-top">
+			<div class="logo">
+				<a href="index.html"><img src="images/ps1.png"   alt=""/></a>
+				
+						<!--<font face="verdana" size="100px" color="white">Sample School</font>-->
+					
+				
+			</div>
+			
+			<div class="clear"></div>
+		</div>
+	</div>
+	<div class="menu">
+		<div class="wrap">
+			<div class="top-nav">
+			      <ul class="nav">
+		            <li><a href="index.php">Home</a></li>
+					<li><a href="faculty.php">Faculty</a></li>
+					<li><a href="">Events</a></li>
+					<li class="active"><a href="admission.html">Admission</a></li>
+					<li><a href="">Sports</a></li>
+					<li><a href="rules.html">Rules</a></li>
+					<li><a href="gallery.html">Gallery</a></li>
+					<li><a href="login.html">Login</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="contact.html">Contact</a></li>
+					<div class="clear"></div>
+				 </ul>
+				  <div class="search">
+				    		<form>
+				    			<input type="text" value="">
+				    			<input type="submit" value="">
+				    		</form>
+					</div>
+					<div class="clear"></div>
+			</div>
+	     </div>
+	</div>
+</div>
+      
+	
+	<div id="imgdiv">
+								<h2 id="heading"><font>Admissions Details</font></h2>
+									<ol  style="margin-left:5%">
+										<li>1) The admissions process can be overwhelming, but here are a few pointers to make your child’s admission to any school a good experience.</li></br>
+												<li>2) BEGIN EARLY! All schools require an application form, which should be completed and returned to the appropriate Admission Office. Generally, applications are available the first week of September. If you have multiple applications or more than one child applying, it is often helpful to use a calendar specific to the admissions process. There are multiple deadlines within each application and having a calendar on which these dates are clearly marked will lower the stress level and assist in making sure all forms are returned in a timely manner.</li></br>
+												<li>3) Some schools have open, year round or rolling enrollment, and accept students at any time if there are openings.</li></br>
+												<ol><li>i) Other forms that may be required:</li></br>
+												<li>4) Immunization records</li></br>
+												<li>5) Health form</li></br>
+												<li>6) Emergency medical form</li></br>
+												<li>7) Birth certificate</li></br>
+												<li>8) Enrollment form</li></br>
+												<li>9) Proof of medical insurance</li></br>
+												<li>10) School records</li></br>
+												<li>11) Teacher recommendations</li></br>
+												<li>12) Standardized test scores (if available)</li></br></ol>
+												<li>13) Many schools require both a student and parent interview. A member of the Admission Office of the respective school will call to schedule the required interviews and/or group observations. Generally, younger applicants are observed in group situations and older children have a formal interview. Remember, appearance is a factor in a school’s admission decisions as well as a child’s academic record, recommendations and extracurricular activities.</li>
+											</br></br></br>
+									</ol>
+									
+								</div>
+	
+	
+	
+	<div class="footer">
+			<div class="wrap">
+			<div class="footer-grids">
+				
+				
+				<div class="footer-grid footer-lastgrid">
+					<h3>CONTACT US</h3>
+					<div class="footer-grid-address">
+						<p>Tel.8143697499</p>
+						<p>Email:<a class="email-link" href="#">contact@paatashalas.com</a></p>
+					</div>
+				</div>
+				<div class="clear"> </div>
+			</div>
+			
+		</div>
+	</div>
+</body>
+<script type="">
+   
+function faculty_info(v)
+	{	
+		window.location.href="faculty_display.php?index="+v;
+	}
+	
+</script>
+</html>

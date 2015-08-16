@@ -1,0 +1,114 @@
+<?php 
+session_start();
+include "paa_connection.php";
+ ?>
+<html>
+<head>
+<title>Template 1</title>
+<link href="css/style1.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/slider.css" rel="stylesheet" type="text/css" media="all"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+		  
+		  
+<script type="text/javascript" src="js1/jquery-1.9.0.min.js"></script>
+<script type="text/javascript" src="js1/jquery.nivo.slider.js"></script>
+<script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+    </script>
+<!--light-box-->
+
+</head>
+<body>
+<div class="header">
+	<div class="wrap">
+		<div class="header-top">
+			<div class="logo">
+				<a href="index.html"><img src="images/ps1.png"   alt=""/></a>
+				
+						<!--<font face="verdana" size="100px" color="white">Sample School</font>-->
+					
+				
+			</div>
+			
+			<div class="clear"></div>
+		</div>
+	</div>
+	<div class="menu">
+		<div class="wrap">
+			<div class="top-nav">
+			      <ul class="nav">
+		            <li><a href="index.php">Home</a></li>
+					<li><a href="faculty.php">Faculty</a></li>
+					<li><a href="">Events</a></li>
+					<li><a href="admission.html">Admission</a></li>
+					<li><a href="">Sports</a></li>
+					<li class="active"><a href="rules.html">Rules</a></li>
+					<li><a href="gallery.html">Gallery</a></li>
+					<li><a href="login.html">Login</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="contact.html">Contact</a></li>
+					<div class="clear"></div>
+				 </ul>
+				  <div class="search">
+				    		<form>
+				    			<input type="text" value="">
+				    			<input type="submit" value="">
+				    		</form>
+					</div>
+					<div class="clear"></div>
+			</div>
+	     </div>
+	</div>
+</div>
+      
+	
+	<div id="imgdiv">
+								<h2 id="heading1"><font>Rules & Regulations Details</font></h2>
+								<ol style="margin-left:5%">
+										<li>1) Each student must carry his almanac and identity card to school every day.</li></br>
+										<li>2) A student should affix his/her photograph and write the required information, duly signed by a parent, in the space provided for in the almanac.</li></br>
+										<li>3) Students who come to school on their own should reach the school before School timings.</li></br>
+										<li>4) Students are not allowed to bring mobile phone to school. If they do so, it will be confiscated.</li></br>
+										<li>5) Changing of classrooms between periods should be done in an orderly manner and silently. Students should not unnecessarily leave their class at the end of every period.</li></br>
+										<li>6) All boys (except Sikhs) must keep their hair short. Girls must tie their hair neatly with a green band.</li></br>
+										<li>7) Non-Sikh boys should get their hair cut at regular intervals. Sikh boys must wear turbans in Class IX and above. A patka may be worn only while playing games.</li></br>
+										<li>8) No books (other than text books or library books), magazines or paper should be brought to the school.</li></br>
+								</ol>
+								</div>
+				</div>
+	
+	
+	
+	
+	<div class="footer">
+			<div class="wrap">
+			<div class="footer-grids">
+				
+				
+				<div class="footer-grid footer-lastgrid">
+					<h3>CONTACT US</h3>
+					<div class="footer-grid-address">
+						<p>Tel.8143697499</p>
+						<p>Email:<a class="email-link" href="#">contact@paatashalas.com</a></p>
+					</div>
+				</div>
+				<div class="clear"> </div>
+			</div>
+			
+		</div>
+	</div>
+</body>
+<script type="">
+   
+function faculty_info(v)
+	{	
+		window.location.href="faculty_display.php?index="+v;
+	}
+	
+</script>
+</html>
